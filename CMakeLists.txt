@@ -14,7 +14,17 @@ endif()
 
 project(OpenVDB_test)
 
-add_executable (OpenVDB_test main.cpp)
+# SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
+
+include_directories(${PROJECT_SOURCE_DIR})
+
+
+file(GLOB SOURCES
+    BVC/*.h
+    BVC/*.cpp
+    main.cpp
+)
+add_executable(OpenVDB_test ${SOURCES})
 
 list(APPEND CMAKE_MODULE_PATH "/Users/Nick/openvdb/cmake/")
 find_package(OpenVDB REQUIRED)

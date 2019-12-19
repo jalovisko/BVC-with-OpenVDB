@@ -8,6 +8,7 @@
 
 #include <openvdb/openvdb.h>
 #include <iostream>
+#include "BVC/BVC_geometry.h"
 
 int main() {
     // Initialize the OpenVDB library.  This must be called at least
@@ -52,5 +53,9 @@ int main() {
     {
         std::cout << "Grid" << iter.getCoord() << " = " << *iter << std::endl;
     }
+    
+    // Load the bunny!
+    
+    
     return 0;
 }
