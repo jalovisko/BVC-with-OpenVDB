@@ -6,7 +6,15 @@
 //  Copyright © 2019 Additive Design and Manufacturing Lab, McGill University. All rights reserved.
 //
 
-
+#include "boundary.h"
 #include <iostream>
-#include "BVC_geometry.h"
 
+class Boundary : public IBoundary
+{
+    
+};
+
+std::unique_ptr<IBoundary> createBoundary()
+{
+    return nullptr;
+}

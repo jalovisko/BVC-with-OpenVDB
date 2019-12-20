@@ -8,7 +8,7 @@
 
 #include <openvdb/openvdb.h>
 #include <iostream>
-#include "BVC/BVC_geometry.h"
+#include "BVC/volumetric_cell.h"
 
 int main() {
     // Initialize the OpenVDB library.  This must be called at least
