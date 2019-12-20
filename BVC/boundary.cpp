@@ -1,5 +1,5 @@
 //
-//  BVCGeometry.cpp
+//  boundary.cpp
 //  OpenVDB_test
 //
 //  Created by Nikita Letov, 19 December 2019.

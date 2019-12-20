@@ -1,5 +1,5 @@
 //
-//  BVCGeometry.h
+//  volumetric_cell.h
 //  OpenVDB_test
 //
 //  Created by Nikita Letov, 19 December 2019.
